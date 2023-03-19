@@ -1,0 +1,11 @@
+ipam:
+  operator:
+    clusterPoolIPv4PodCIDRList:
+      - ${cluster_ipv4_cidr}
+devices: "eth1"
+kubeProxyReplacement: strict
+hubble:
+  relay:
+    enabled: true
+  ui:
+    enabled: true

@@ -1,0 +1,9 @@
+.terraform
+*.tfstate
+*.tfstate.backup
+*kubeconfig*
+secrets.tfvars
+.idea
+*.iml
+deployments/monitoring.yaml
+*backup.yaml
